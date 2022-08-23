@@ -1,0 +1,11 @@
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(150deg, #B6D2F0,  hsl(234, 100%, 60%));
+    background-attachment: fixed;
+    color: #002A57;
+    display: flex;
+    justify-content: center;
+}
