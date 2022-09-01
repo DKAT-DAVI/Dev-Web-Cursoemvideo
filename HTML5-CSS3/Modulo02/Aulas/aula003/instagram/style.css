@@ -13,4 +13,31 @@ body {
     #FF3B1C,
     #FF6100, 
     #FFCD00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 55px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 80px;
+}
+
+.bolinha {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 80px;
 }
