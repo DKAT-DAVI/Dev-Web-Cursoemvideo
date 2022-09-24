@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #area{
+            font: normal 15pt Arial;
+            background-color: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseleave="sair()">
+        Interaja...
+    </div>
+
+    <script>
+        var a = document.getElementById('area');
+
+        //Floor arredonda o número
+        //Random gera número randomizado
+        /*Multiplica o random pela diferença
+        do maxValue e minValue e soma com o minValue*/
+        function randomNumber(min, max){
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+
+        function mudarCor(){
+            var r = randomNumber(0, 255);
+            var g = randomNumber(0, 255);
+            var b = randomNumber(0, 255);
+            a.style.background = 'rgb('+ r+','+ g+','+ b+ ')';
+        }
+
+        function clicar(){
+            a.innerText = "Clicou!";
+            mudarCor();
+        }
+
+        function entrar(){
+            a.innerText = "Entrou!";
+            mudarCor();
+        }
+
+        function sair(){
+            a.innerText = "Saiu!";
+            mudarCor();
+        }
+    </script>
+</body>
+</html>
