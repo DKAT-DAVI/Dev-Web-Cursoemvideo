@@ -39,19 +39,3 @@ aside img{
     float: left;
     margin-right: 10px;
 }
-
-footer a{
-    padding: 8px 10px;
-    text-decoration: none;
-    background-color: rgba(172, 166, 255, 0.623);
-    color: black;
-    cursor: pointer;
-    border-radius: 8px;
-    border-block-end: 1px solid black;
-}
-
-footer a:hover{
-    color: rgb(23, 0, 235);
-    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
-    border-block-end: 1px solid blue;
-}
