@@ -14,7 +14,7 @@
         <span id="icon-menu" class="material-symbols-outlined">
             menu
         </span>
-        <menu>
+        <menu id="mnu">
             <ul>
                 <li>
                     <a href="#">Home</a>
@@ -42,5 +42,27 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
         </article>
     </main>
+
+    <script>
+
+        iconMenu = document.getElementById('icon-menu');
+        iconMenu.addEventListener("click", clickMenu);
+
+        var verificator = 0
+
+        function clickMenu() {
+
+            if (verificator == 0) {
+                mnu.style.display = 'block';
+                verificator = 1;
+            }
+            else {
+                mnu.style.display = 'none';
+                verificator = 0;
+            }   
+        }
+
+        
+    </script>
 </body>
 </html>
