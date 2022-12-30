@@ -24,17 +24,3 @@ h1 {
 }
 
 
-/* Style to landscape orientation*/
-@media (orientation:landscape) {
-    body {
-        background-image: url(../images/cev-landscape.jpg);
-    }
-}
-
-/* Style to portrait orientation*/
-@media (orientation:portrait) {
-    body {
-        background-image: url(../images/cev-portrait.jpg);
-        
-    }
-}
