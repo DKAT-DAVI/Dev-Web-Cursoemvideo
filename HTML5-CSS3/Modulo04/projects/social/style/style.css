@@ -29,11 +29,12 @@ main {
 
 #smartphone {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 500px;
     width: 250px;
+    margin-top: 40px;
     background-image: url(../assets/images/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -42,8 +43,13 @@ main {
 #smartphone #screen {
     position: relative;
     top: 64px;
-    left: 18px;
-    height: 375px;
+    left: 17px;
+    height: 376px;
     width: 214px;
-    ;
+}
+
+#social-network-menu img {
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
 }
