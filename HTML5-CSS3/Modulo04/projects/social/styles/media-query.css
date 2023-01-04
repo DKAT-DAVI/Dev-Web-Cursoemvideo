@@ -20,5 +20,81 @@ W3schools
 */
 
 @media screen and (min-width: 786px){
+    #smartphone {
+        height: 550px;
+        width: 300px;
+    }
 
+    #smartphone #screen {
+        top: 68px;
+        left: 19px;
+        height: 416px;
+        width: 236px;
+    }
+
+    #social-network-menu {
+        flex-direction: column;
+        top: 15px;
+        right: 15px;
+        transform: none;
+        left: auto;
+    }
+
+    #social-network-menu img {
+        height: 65px;
+    }
+}
+
+
+@media screen and (min-width: 1366px){
+    #smartphone {
+        height: 650px;
+        width: 375px;
+    }
+
+    #smartphone #screen {
+        top: 83px;
+        left: 21px;
+        height: 490px;
+        width: 276px;
+    }
+
+    #social-network-menu {
+        flex-direction: column;
+        top: 15px;
+        right: 15px;
+        transform: none;
+        left: auto;
+    }
+
+    #social-network-menu img {
+        height: 75px;
+    }
+}
+
+
+@media screen and (min-width: 1920px){
+    #smartphone {
+        height: 750px;
+        width: 475px;
+    }
+
+    #smartphone #screen {
+        top: 94px;
+        left: 28px;
+        height: 565px;
+        width: 316px;
+    }
+
+    #social-network-menu {
+        flex-direction: column;
+        top: 15px;
+        right: 15px;
+        transform: none;
+        left: auto;
+    }
+
+    #social-network-menu img {
+        height: 75px;
+    }
 }
