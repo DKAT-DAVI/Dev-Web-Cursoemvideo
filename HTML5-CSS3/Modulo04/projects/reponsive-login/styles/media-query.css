@@ -6,7 +6,10 @@
     }
 
     #login {
+        display: flex;
+        align-items: center;
         width: 80vw;
+        height: 350px;
     }
 
     #image {
@@ -26,7 +29,10 @@
     }
 
     #login {
+        display: flex;
+        align-items: center;
         width: 990px;
+        height: 500px;
     }
 
     #image {
