@@ -61,6 +61,64 @@ main {
     text-align: center;
 }
 
-.field input {
-    width: 80%;
+.field {
+    display: flex;
+    align-items: center;
+    background-color: var(--lilac-color);
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
+
+.field span{
+    padding: 3px;
+    
+}
+
+.field input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: var(--green-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #49a074;
+}
+
+form > .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    background-color: #a14cda;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > .btn:hover {
+    background-color: #7738a1;
+}
+
+.btn p{
+    margin-right: 5px;
+}
+
