@@ -50,3 +50,17 @@ main {
     display: block;
     padding: 10px;
 }
+
+#forms > h1 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#forms > p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.field input {
+    width: 80%;
+}
