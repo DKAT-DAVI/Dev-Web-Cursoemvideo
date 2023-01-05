@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form method="post" autocomplete="on">
+        <p>
+            <label for="year">First number:</label>
+            <input type="date" name="year" id="year" oninput="sum.innerHTML = Number(year.value) + Number(n2.value)">
+        </p>
+
+        <p>
+            <label for="result">Sum:</label>
+            <output name="result" id="result">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
