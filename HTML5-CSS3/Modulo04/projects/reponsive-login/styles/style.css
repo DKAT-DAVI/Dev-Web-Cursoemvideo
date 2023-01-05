@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root {
+    --green-color: #49a09d;
+    --lilac-color: #5f2c82;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, var(--lilac-color), var(--green-color));
+}
