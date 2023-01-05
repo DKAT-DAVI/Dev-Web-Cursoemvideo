@@ -32,8 +32,17 @@ header > h1 {
     border-radius: 10px;
     box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.568);
     color: rgb(3, 133, 255);
-    width: 100px;
-    
+    width: 50px; 
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#icon-menu:hover {
+    background-image: linear-gradient(to right, rgb(1, 150, 230), rgb(0, 55, 231));
+    box-shadow: none;
+    color: white;
+    transition: .2s;
 }
 
 menu {

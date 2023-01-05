@@ -10,13 +10,13 @@
     <h1>Form Example</h1>
     <form method="post" autocomplete="on">
         <p>
-            <label for="year">First number:</label>
-            <input type="date" name="year" id="year" oninput="sum.innerHTML = Number(year.value) + Number(n2.value)">
+            <label for="year">What year were you born?</label>
+            <input type="number" name="year" id="year" value="2023" max="2023" oninput="calcAge()">
         </p>
 
         <p>
-            <label for="result">Sum:</label>
-            <output name="result" id="result">0</output>
+            <label for="age">This year you will complete:</label>
+            <output name="age" id="age">0 years</output>
         </p>
 
         <p>
@@ -24,5 +24,11 @@
             <input type="reset" value="Clear">
         </p>
     </form>
+    <script>
+        function calcAge() {
+            let actualYear = new Date().getFullYear()
+            age.value = actualYear - Number(year.value) + " years"
+        }
+    </script>
 </body>
 </html>
